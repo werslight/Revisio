@@ -26,4 +26,10 @@
     <string name="applabel">Reviz.io</string>
     <string name="editstudy">Editer mes révisions</string>
     <string name="startstudy">Commencer!</string>
+    <string name="category">Catégorie</string>
+    <string name="nameCategory">Rentrez le nom de la catégorie</string>
+    <string name="color">Couleur</string>
+    <string name="validate">Confirmer</string>
+    <string name="nameFile">Rentre le nom de la fiche</string>
+    <string name="file">Fiche</string>
 </resources>
