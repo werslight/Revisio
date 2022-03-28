@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projet</string>
+    <string name="calendar">Calendrier</string>
+    <string name="back">←</string>
+    <string name="settings">Paramètres</string>
+    <string name="language">Langues</string>
+    <string name="notif">Notification</string>
+    <string name="effect">Effet Sonore</string>
+</resources>
