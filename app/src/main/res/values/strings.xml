@@ -6,4 +6,24 @@
     <string name="language">Langues</string>
     <string name="notif">Notification</string>
     <string name="effect">Effet Sonore</string>
+    <string name="next_question_button">Valider</string>
+    <string name="question_label_colon">Question :</string>
+    <string name="zero_percent">0%</string>
+    <string name="hundred_percent">100%</string>
+    <string name="beginstudies">Commencez à Revizer!</string>
+    <string name="title_activity_category_edit">CategoryEdit</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_file_edit">FileEdit</string>
+    <string name="resultslabel">Results</string>
+    <string name="homelabel">Home</string>
+    <string name="applabel">Reviz.io</string>
+    <string name="editstudy">Editer mes révisions</string>
+    <string name="startstudy">Commencer!</string>
 </resources>
