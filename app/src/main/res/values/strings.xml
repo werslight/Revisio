@@ -32,4 +32,10 @@
     <string name="validate">Confirmer</string>
     <string name="nameFile">Rentre le nom de la fiche</string>
     <string name="file">Fiche</string>
+    <string name="back_create">o</string>
+    <string name="plus_create">+</string>
+    <string name="my_hint" />
+    <string name="r_ponses">Réponses</string>
+    <string name="questions">Questions</string>
+    <string name="vos_r_visions">Vos révisions</string>
 </resources>

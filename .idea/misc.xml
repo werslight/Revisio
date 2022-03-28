@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/leacu/OneDrive/Bureau/coursS4T/Revisio/app/src/main/res/drawable/rounded_corner.xml" value="0.163" />
+        <entry key="..\:/Users/leacu/OneDrive/Bureau/coursS4T/Revisio/app/src/main/res/layout/activity_mainCREATE.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/leacu/OneDrive/Bureau/coursS4T/Revisio/app/src/main/res/layout/create_questions.xml" value="0.1265625" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_fiche_edit.xml" value="0.19161676646706588" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_file_edit.xml" value="0.234375" />
       </map>
