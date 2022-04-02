@@ -14,4 +14,14 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="pink">#D81B60</color>
+
+    <!-- Our own colors-->
+    <color name="reviziobg">#291730</color>
+    <color name="back">#E12BEA</color>
+    <color name="uncheck">#F35099</color>
+    <color name="check">#37E5CE</color>
+    <color name="add">#0DB6C3</color>
+    <color name="delete">#D60077</color>
+    <color name="whitealt">#EFEFEF</color>
+
 </resources>
