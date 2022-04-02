@@ -32,4 +32,6 @@
     <string name="validate">Confirmer</string>
     <string name="nameFile">Rentre le nom de la fiche</string>
     <string name="file">Fiche</string>
+    <string name="rev">Vos révisions</string>
+    <string name="add">+</string>
 </resources>

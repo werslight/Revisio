@@ -2,9 +2,11 @@ package etu.unice.revisio;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class Settings extends AppCompatActivity {
@@ -13,12 +15,21 @@ public class Settings extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.setting);
 
         Button btnNotif = findViewById(R.id.btnNotif);
         Button btnEffect = findViewById(R.id.btnEffect);
         ImageView imgNotif = findViewById(R.id.imgNotif);
         ImageView imgEffect = findViewById(R.id.imgEffect);
+        ImageButton back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent back = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(back);
+            }
+        });
 
         int [] arrayNotif = {R.drawable.notif_off,
                 R.drawable.notif_on};
