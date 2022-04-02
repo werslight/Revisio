@@ -1,0 +1,40 @@
+{
+  "studies":{
+    "category":[
+      {
+        "name":"premiere category de revision",
+        "color":null,
+        "files":[
+          {
+            "name":"premiere fiche de revision",
+            "color":"red",
+            "questions":[
+              {
+                "label":"Est ce que j'ai reussis a creer une question? (QCM)",
+                "answer":[
+                  {
+                    "reponse1":"Yes","value":true
+                  },
+                  {
+                    "reponse2":"...","value":false
+                  },
+                  {
+                    "reponse3":"No","value":false
+                  }
+                ]
+              },
+              {
+                "label":"Combien mon frere a de neurones?",
+                "answer":"number",
+                "value":3
+              }
+            ]
+          }
+        ]
+      },
+      {}
+    ]
+  },
+  "calendar":{
+  }
+}
