@@ -4,15 +4,12 @@
     android:gravity="center|top"
     android:orientation="horizontal">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-"
-        android:textSize="20sp"
-        android:id="@+id/remove"
-        android:textColor="@color/white"
-        android:layout_marginRight="10dp"
-        />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="50sp"
+        android:layout_height="50dp"
+        android:src="@drawable/less" />
+
     <EditText
         android:id="@+id/answerEdit"
         android:layout_height="wrap_content"
