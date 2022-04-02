@@ -23,12 +23,9 @@ public class Settings extends AppCompatActivity {
         ImageView imgEffect = findViewById(R.id.imgEffect);
         ImageButton back = findViewById(R.id.back);
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent back = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(back);
-            }
+        back.setOnClickListener(view -> {
+            Intent back1 = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(back1);
         });
 
         int [] arrayNotif = {R.drawable.notif_off,
