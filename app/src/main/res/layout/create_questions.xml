@@ -1,22 +1,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center|top"
+    android:gravity="top"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start|top"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:background="@drawable/rounded_corner"
-        android:text="@string/back_create"
-        android:textSize="20sp"
-        android:textColor="@android:color/white" />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="50sp"
+        android:layout_height="50dp"
+        android:src="@drawable/back" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +17,7 @@
         />
 
     <EditText
-        android:id="@+id/et_simple"
+        android:id="@+id/edittext"
         android:layout_height="wrap_content"
         android:layout_width="300dp"
         android:maxLines="1"
@@ -72,11 +64,11 @@
         android:id="@+id/list_reponses"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
         android:layout_marginRight="10dp"
-        android:background="#EEE"/>
+        android:layout_marginBottom="5dp"
+        android:background="#EEE" />
 
     <Button
         android:layout_width="wrap_content"
