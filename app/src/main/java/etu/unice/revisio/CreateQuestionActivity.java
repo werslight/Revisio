@@ -45,7 +45,7 @@ public class CreateQuestionActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                etu.iut.td4.testproject.CustomPopup customPopup = new etu.iut.td4.testproject.CustomPopup(activity);
+                CustomPopup customPopup = new CustomPopup(activity);
                 customPopup.setTitle("Supprimer la fiche ?");
                 customPopup.setSubtitle("Une fois supprimer, vous ne pouvez plus revenir en arrière.");
                 customPopup.getYesButton().setOnClickListener(new View.OnClickListener() {
