@@ -57,18 +57,15 @@ public class ListCategory {
         int color = jsonObject.getInt("color");
 
         List<File> files = new ArrayList<>();
-        List<Questions> questions = new ArrayList<>();
-        List<Answer> answers = new ArrayList<>();
 
         for(int i = 0; i < jsonObject.getJSONArray("files").length(); i++) {
             File getAllFiles = new File(
                     jsonObject.getJSONArray("files").getJSONObject(i).getString("name"),
-                    jsonObject.getJSONArray("files").getJSONObject(i).getInt("color"),
-                    jsonObject.getJSONArray("files").getJSONObject(i).getJSONArray("answers")
+                    jsonObject.getJSONArray("files").getJSONObject(i).getInt("color")
             );
-
             files.add(getAllFiles);
         }
-        return new Category(String name, int color);
+
+        return new Category(name, color, (ArrayList<File>) files);
     }
 }

@@ -8,7 +8,7 @@ public class Questions extends AppCompatActivity {
     private String name;
     private ArrayList<File> answer;
 
-    public Questions(String name, ArrayList<File> answer) {
+    public Questions(String name) {
         this.name = name;
         this.answer = answer;
     }

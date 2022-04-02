@@ -1,18 +1,11 @@
 package etu.unice.revisio;
 
-import android.app.AlertDialog;
-import android.content.Intent;
-import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.widget.Button;
-import android.widget.ImageButton;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class Category extends AppCompatActivity implements Parcelable {
+public class Category implements Parcelable {
     private String name;
     private int color;
     private ArrayList<File> files;
@@ -26,6 +19,7 @@ public class Category extends AppCompatActivity implements Parcelable {
     protected Category(Parcel in) {
         name = in.readString();
         color = in.readInt();
+        files = in.createTypedArrayList(File.CREATOR);
     }
 
     public static final Creator<Category> CREATOR = new Creator<Category>() {
@@ -41,45 +35,47 @@ public class Category extends AppCompatActivity implements Parcelable {
     };
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category);
-
-        Button addCategory = findViewById(R.id.addCategory);
-        ImageButton back = findViewById(R.id.back);
-
-        addCategory.setOnClickListener(view -> {
-            Intent add = new Intent(getApplicationContext(), EditCategory.class);
-            startActivity(add);
-        });
-
-        addCategory.setOnLongClickListener(view -> {
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle("Supprimer");
-
-            builder.setMessage("Supprimer la catégorie ...");
-            builder.setPositiveButton("Oui", null);
-            builder.setNegativeButton("Non", null);
-
-            builder.show();
-            return true;
-        });
-
-        back.setOnClickListener(view -> {
-            Intent back1 = new Intent(getApplicationContext(), MainActivity.class);
-            startActivity(back1);
-        });
-
-    }
-
-    @Override
     public int describeContents() {
         return 0;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
+    }
+
+    public ArrayList<File> getFiles() {
+        return files;
+    }
+
+    public void setFiles(ArrayList<File> files) {
+        this.files = files;
+    }
+
+    public static Creator<Category> getCREATOR() {
+        return CREATOR;
     }
 
     @Override
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(name);
         parcel.writeInt(color);
+        parcel.writeTypedList(files);
     }
+
+    public static Creator<Category> getCreator() {
+        return CREATOR;
+    }
+
 }

@@ -20,9 +20,9 @@
         <activity android:name=".Settings" android:label="Settings"/>
         <activity android:name=".Calendar" android:label="Calendar"/>
         <activity android:name=".StartReviews" android:label="StartReviews"/>
-        <activity android:name=".File" android:label="File"/>
+        <activity android:name=".FileActivity" android:label="EditFiles"/>
         <activity android:name=".EditFiles" android:label="EditFiles"/>
-        <activity android:name=".Category" android:label="Category"/>
+        <activity android:name=".CategoryActivity" android:label="Category"/>
         <activity android:name=".EditCategory" android:label="CategoryEdit"/>
 
     </application>

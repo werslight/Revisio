@@ -24,7 +24,7 @@ public class EditCategory extends AppCompatActivity {
         });
 
         back.setOnClickListener(view -> {
-            Intent back1 = new Intent(getApplicationContext(), Category.class);
+            Intent back1 = new Intent(getApplicationContext(), CategoryActivity.class);
             startActivity(back1);
         });
     }
