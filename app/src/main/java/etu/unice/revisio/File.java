@@ -6,7 +6,19 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+
 public class File extends AppCompatActivity {
+    private String name;
+    private int color;
+    private ArrayList<Questions> questions;
+
+    public File(String name, int color, ArrayList<Questions> questions) {
+        this.name = name;
+        this.color = color;
+        this.questions = questions;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
