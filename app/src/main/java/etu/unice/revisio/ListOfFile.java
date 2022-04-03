@@ -53,6 +53,7 @@ public class ListOfFile {
     private static File getFileFromJSONObject(JSONObject jsonObject, Context context) throws JSONException {
         String name = jsonObject.getString("name");
         String color = jsonObject.getString("color");
+        int number = jsonObject.getInt("number");
 
         List<Questions> questions = new ArrayList<>();
 
@@ -67,7 +68,7 @@ public class ListOfFile {
             questions.add(getAllQuestions);
         }
 
-        return new File(name, color, (ArrayList<Questions>) questions);
+        return new File(name, color, number, (ArrayList<Questions>) questions);
     }
 
 

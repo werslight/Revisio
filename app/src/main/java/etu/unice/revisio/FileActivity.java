@@ -52,7 +52,7 @@ public class FileActivity extends AppCompatActivity implements FileAdapter.FileA
 
     @Override
     public void onClickName(File item, int position) {
-        File files = new File(item.getName(),item.getColor(), item.getQuestions());
+        File files = new File(item.getName(),item.getColor(), item.getNumber(), item.getQuestions());
         Intent intent = new Intent(FileActivity.this, QuestionsActivity.class);
         intent.putExtra(Application.FILES, files);
         startActivity(intent);

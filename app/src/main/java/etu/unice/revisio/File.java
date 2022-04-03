@@ -14,17 +14,20 @@ import java.util.List;
 public class File implements Parcelable {
     private String name;
     private String color;
+    private int number;
     private ArrayList<Questions> questions;
 
-    public File(String name, String color, ArrayList<Questions> questions) {
+    public File(String name, String color, int number, ArrayList<Questions> questions) {
         this.name = name;
         this.color = color;
+        this.number = number;
         this.questions = questions;
     }
 
     protected File(Parcel in) {
         name = in.readString();
         color = in.readString();
+        number = in.readInt();
         questions = in.createTypedArrayList(Questions.CREATOR);
     }
 
@@ -53,6 +56,7 @@ public class File implements Parcelable {
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(name);
         parcel.writeString(color);
+        parcel.writeInt(number);
         parcel.writeTypedList(questions);
     }
 
@@ -82,5 +86,13 @@ public class File implements Parcelable {
 
     public static Creator<File> getCREATOR() {
         return CREATOR;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
     }
 }
