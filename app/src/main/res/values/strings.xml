@@ -34,4 +34,9 @@
     <string name="file">Fiche</string>
     <string name="rev">Vos révisions</string>
     <string name="add">+</string>
+    <string name="enterNumber">Entrez votre numéro de téléphone</string>
+    <string name="enterMessage">Entrez votre message</string>
+    <string name="send">ENVOYER</string>
+    <string name="label" />
+    <string name="answer1" />
 </resources>

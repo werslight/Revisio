@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Revisio">
         <activity
-            android:name=".FileActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,10 +21,13 @@
         <activity android:name=".Settings" android:label="Settings"/>
         <activity android:name=".Calendar" android:label="Calendar"/>
         <activity android:name=".StartReviews" android:label="StartReviews"/>
-        <activity android:name=".MainActivity" android:label="EditFiles"/>
+        <activity android:name=".FileActivity" android:label="EditFiles"/>
         <activity android:name=".EditFile" android:label="CategoryEdit"/>
         <activity android:name=".Notification" android:label="Notification"/>
+        <activity android:name=".ScoreBoard" android:label="ScoreBoard"/>
         <activity android:name=".QuestionsActivity" android:label="QuestionsActivity"/>
+        <activity android:name=".QuestionActivity_2" android:label="QuestionActivity_2"/>
+
 
     </application>
 
