@@ -21,6 +21,19 @@
         tools:ignore="MissingConstraints"/>
 
     <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/label"
+        android:textSize="25dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+
+    <TextView
         android:id="@+id/answer1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,7 +46,16 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints"/>
 
-    <Button
+    <RadioGroup
+        android:id="@+id/rdGender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    <RadioButton
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +65,7 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <Button
+    <RadioButton
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +76,8 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <Button
+
+    <RadioButton
         android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,7 +87,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints" />
-
+    </RadioGroup>
     <com.google.android.material.slider.Slider
         android:id="@+id/slider"
         android:layout_width="wrap_content"
