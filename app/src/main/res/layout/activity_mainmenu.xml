@@ -19,6 +19,16 @@
         android:src="@drawable/logo"
         android:contentDescription="@string/logo" />
 
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_goneMarginTop="10dp"
+        android:src="@drawable/setting"
+        android:contentDescription="@string/logo" />
+
     <TextView
         android:id="@+id/titleMainMenu"
         android:layout_width="wrap_content"
