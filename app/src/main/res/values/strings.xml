@@ -39,4 +39,6 @@
     <string name="questions">Questions</string>
     <string name="vos_r_visions">Vos révisions</string>
     <string name="logo">logo</string>
+    <string name="todo">TODO</string>
+    <string name="result">__%</string>
 </resources>

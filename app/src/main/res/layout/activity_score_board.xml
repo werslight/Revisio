@@ -4,7 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/reviziobg"
     tools:context=".ScoreBoard">
+
+    <ImageView
+        android:id="@+id/stars"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/starss"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="@string/todo" />
+
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -14,27 +28,32 @@
     app:layout_constraintBottom_toBottomOf="parent"
     android:orientation="vertical"
     android:gravity="center">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/resultslabel"
-        android:textSize="50dp"/>
+        android:textColor="@color/back"
+        android:textSize="50sp"/>
+
     <TextView
         android:id="@+id/progressionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="__%"/>
+        android:textColor="@color/white"
+        android:text="@string/result"
+        android:textSize="40sp"/>
     <ListView
         android:id="@+id/fileCompletion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         />
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/homeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/check"
         android:text="@string/homelabel"/>
 </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
