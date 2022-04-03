@@ -22,8 +22,8 @@ public class Mainmenu extends AppCompatActivity {
         setContentView(R.layout.activity_mainmenu);
 
         logo = findViewById(R.id.appLogo);
-        logo.startAnimation(AnimationUtils.loadAnimation(
-                this, R.anim.special));
+        Animation logoAnime = AnimationUtils.loadAnimation(this, R.anim.special);
+        logo.startAnimation(logoAnime);
 
         title = findViewById(R.id.titleMainMenu);
         title.setOnClickListener(new View.OnClickListener() {
