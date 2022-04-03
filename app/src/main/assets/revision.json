@@ -1,40 +1,52 @@
-{
-  "studies":{
-    "category":[
+[
+  {
+    "name":"Réseau",
+    "color":"Blue",
+    "questions":[
       {
-        "name":"premiere category de revision",
-        "color":null,
-        "files":[
-          {
-            "name":"premiere fiche de revision",
-            "color":"red",
-            "questions":[
-              {
-                "label":"Est ce que j'ai reussis a creer une question? (QCM)",
-                "answer":[
-                  {
-                    "reponse1":"Yes","value":true
-                  },
-                  {
-                    "reponse2":"...","value":false
-                  },
-                  {
-                    "reponse3":"No","value":false
-                  }
-                ]
-              },
-              {
-                "label":"Combien mon frere a de neurones?",
-                "answer":"number",
-                "value":3
-              }
-            ]
-          }
-        ]
+        "label":"Selectionner la réponse juste",
+        "answer1":"Le HTML est un langage pour coder du web",
+        "answer2":"Le HTML est un logiciel pour créer des machines virtuels",
+        "answer3":"Le HTTP est un protocole qui envoie une requête et reçoit la page ou une erreur",
+        "value":"Le HTML est un langage pour coder du web\""
       },
-      {}
+      {
+        "label":"Le chiffrement symétrique est plus sécurisé que le chiffrement asymétrique",
+        "answer1":"VRAI",
+        "answer2":"FAUX",
+        "answer3":"",
+        "value":"FAUX"
+      },
+      {
+        "label":" Un certificat est...",
+        "answer1":"Un document officiel qui décrit les lois informatiques d'une entreprise ",
+        "answer2":"Un document électronique qui permet d'identifier une entité (exemple un serveur)",
+        "answer3":" Juste un papier",
+        "value":"Un document électronique qui permet d'identifier une entité (exemple un serveur)"
+      }
+
     ]
   },
-  "calendar":{
+  {
+    "name":"Mathématique",
+    "color":"",
+    "questions":[
+      {
+        "label":"",
+        "answer1":"",
+        "answer2":"",
+        "answer3":"",
+        "value":""
+      },
+      {
+        "label":"",
+        "answer1":"",
+        "answer2":"",
+        "answer3":"",
+        "value":""
+      }
+    ]
   }
-}
+]
+
+

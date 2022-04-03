@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         editStudy.setOnClickListener(view -> {
-            Intent editStudy1 = new Intent(getApplicationContext(), CategoryActivity.class);
+            Intent editStudy1 = new Intent(getApplicationContext(), FileActivity.class);
             startActivity(editStudy1);
         });
     }

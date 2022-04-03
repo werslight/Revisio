@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="etu.unice.revisio">
-    <uses-permission android:name = "android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Revisio">
         <activity
-            android:name=".MainActivity"
+            android:name=".FileActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,10 +21,10 @@
         <activity android:name=".Settings" android:label="Settings"/>
         <activity android:name=".Calendar" android:label="Calendar"/>
         <activity android:name=".StartReviews" android:label="StartReviews"/>
-        <activity android:name=".FileActivity" android:label="EditFiles"/>
-        <activity android:name=".EditFiles" android:label="EditFiles"/>
-        <activity android:name=".CategoryActivity" android:label="Category"/>
-        <activity android:name=".EditCategory" android:label="CategoryEdit"/>
+        <activity android:name=".MainActivity" android:label="EditFiles"/>
+        <activity android:name=".EditFile" android:label="CategoryEdit"/>
+        <activity android:name=".Notification" android:label="Notification"/>
+        <activity android:name=".QuestionsActivity" android:label="QuestionsActivity"/>
 
     </application>
 

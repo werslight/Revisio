@@ -7,13 +7,12 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class EditCategory extends AppCompatActivity {
+public class EditFile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category_edit);
-
+        setContentView(R.layout.activity_file_edit);
 
         Button btnValidate = findViewById(R.id.btnValidate);
         ImageButton back = findViewById(R.id.back);
@@ -24,7 +23,7 @@ public class EditCategory extends AppCompatActivity {
         });
 
         back.setOnClickListener(view -> {
-            Intent back1 = new Intent(getApplicationContext(), CategoryActivity.class);
+            Intent back1 = new Intent(getApplicationContext(), FileActivity.class);
             startActivity(back1);
         });
     }
