@@ -39,4 +39,5 @@
     <string name="send">ENVOYER</string>
     <string name="label" />
     <string name="answer1" />
+    <string name="browser">Aller vers l\'ENT</string>
 </resources>

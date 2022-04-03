@@ -6,12 +6,15 @@
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/drawable-anydpi/ic_action_settings.xml" value="0.2255" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/drawable/rounded_corner.xml" value="0.1115" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_begin_studies.xml" value="0.2" />
-        <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_calendar.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_calendar.xml" value="0.176" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_category.xml" value="0.264" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_category_edit.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_fiche_edit.xml" value="0.19161676646706588" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_file_edit.xml" value="0.234375" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_files.xml" value="0.1" />
+        <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_fragment_1.xml" value="0.25" />
+        <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_fragment_2.xml" value="0.1" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_mainCREATE.xml" value="0.25" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/activity_mainmenu.xml" value="0.176" />
@@ -24,6 +27,7 @@
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/file_listview.xml" value="0.1578125" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/my_popup_template.xml" value="0.25" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/notification.xml" value="0.25" />
+        <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/open_browser.xml" value="0.2015625" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/questions_activity.xml" value="0.1" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/layout/setting.xml" value="0.19293478260869565" />
         <entry key="..\:/Users/wersl/AndroidStudioProjects/Revisio/app/src/main/res/menu/activity_main.xml" value="0.15260416666666668" />

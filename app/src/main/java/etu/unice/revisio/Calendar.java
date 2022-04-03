@@ -15,12 +15,16 @@ public class Calendar extends AppCompatActivity  {
         setContentView(R.layout.activity_calendar);
 
         Button back = findViewById(R.id.back);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent back = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(back);
-            }
+        Button btnBrowser = findViewById(R.id.browser);
+
+        back.setOnClickListener(view -> {
+            Intent back1 = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(back1);
+        });
+
+        btnBrowser.setOnClickListener(view -> {
+            Intent back12 = new Intent(getApplicationContext(), Browser.class);
+            startActivity(back12);
         });
 
     }
